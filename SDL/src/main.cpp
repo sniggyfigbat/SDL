@@ -4,10 +4,20 @@
 using namespace std;
 
 
+void init() {
+
+}
+
+void draw(sf::RenderWindow &window) {
+
+}
+
 int main()
 {
 	// Create a window with the constructor
 	sf::RenderWindow window(sf::VideoMode(800, 600), "Shape Design Lab");
+
+	init();
 
 	// Run until the user closes the window
 	while (window.isOpen())
@@ -26,9 +36,9 @@ int main()
 		
 
 		// Clear the window
-
 		window.clear(sf::Color::White);
 
+		draw(window);
 
 		// Display what ever has been drawn to the screen
 		window.display();
