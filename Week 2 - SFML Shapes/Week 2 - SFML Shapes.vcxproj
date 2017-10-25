@@ -118,6 +118,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\SDL\src\Point.cpp" />
+    <ClCompile Include="..\SDL\src\PointMatrix.cpp" />
     <ClCompile Include="H:\Documents\Year_2\GitHub\SDL\SDL\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +129,7 @@
     <ClInclude Include="..\SDL\include\Point.h" />
     <ClInclude Include="..\SDL\include\PointMatrix.h" />
     <ClInclude Include="..\SDL\include\Polygon.h" />
+    <ClInclude Include="..\SDL\include\ShapeManager.h" />
     <ClInclude Include="..\SDL\include\Transform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
