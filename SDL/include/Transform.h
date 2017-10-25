@@ -8,6 +8,7 @@ class Transform
 private:
 	array<array<float, 3>, 3> value;
 public:
+	Transform();
 	Transform(array<array<float, 3>, 3> t);
 	array<array<float, 3>, 3> getTransform();
 	void setVal(int x, int y, float v);

@@ -21,14 +21,11 @@ int main()
 			{
 				window.close();
 			}
-		}
-
-		
+		}	
 
 		// Clear the window
 
 		window.clear(sf::Color::White);
-
 
 		// Display what ever has been drawn to the screen
 		window.display();

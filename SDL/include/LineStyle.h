@@ -11,6 +11,7 @@ private:
 	float weight;
 	//sf::LineType lineType // THIS DUNT WURK
 public:
+	LineStyle();
 	LineStyle(sf::Color c, float w, string lt);
 	sf::Color getColour();
 	void setColour(string rgba);

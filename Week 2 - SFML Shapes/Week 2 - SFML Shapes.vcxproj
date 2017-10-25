@@ -118,9 +118,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\SDL\include\Arc.cpp" />
+    <ClCompile Include="..\SDL\include\Polygon.cpp" />
+    <ClCompile Include="..\SDL\include\ShapeManager.cpp" />
+    <ClCompile Include="..\SDL\include\Transform.cpp" />
+    <ClCompile Include="..\SDL\src\main.cpp" />
     <ClCompile Include="..\SDL\src\Point.cpp" />
     <ClCompile Include="..\SDL\src\PointMatrix.cpp" />
-    <ClCompile Include="H:\Documents\Year_2\GitHub\SDL\SDL\src\main.cpp" />
+    <ClCompile Include="DrawObject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SDL\include\Arc.h" />

@@ -11,7 +11,7 @@ void PointMatrix::addPoint(Point p)
 
 Point PointMatrix::popPoint()
 {
-	if (value.size) {
+	if (value.size()) {
 		Point popped = value.back();
 		value.pop_back();
 		return popped;
@@ -23,7 +23,7 @@ Point PointMatrix::popPoint()
 
 Point PointMatrix::popPoint(int index)
 {
-	if (value.size > index && index >= 0) {
+	if (value.size() > index && index >= 0) {
 		Point popped = value[index];
 		value.erase(value.begin+index);
 		return popped;
@@ -35,7 +35,7 @@ Point PointMatrix::popPoint(int index)
 
 Point PointMatrix::getpoint(int index)
 {
-	if (value.size > index && index >= 0) {
+	if (value.size() > index && index >= 0) {
 		return value[index];
 	}
 	else {
@@ -45,7 +45,7 @@ Point PointMatrix::getpoint(int index)
 
 void PointMatrix::setVal(int x, int y, float newVal)
 {
-	value[x].getValue[y] = newVal;
+	value[x].getValue()[y] = newVal;
 }
 
 vector<Point> PointMatrix::getMatrix()
