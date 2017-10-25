@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="H:\Documents\Year_2\GitHub\SDL\SDL\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Point.h">
+    <ClInclude Include="..\SDL\include\Arc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LineStyle.h">
+    <ClInclude Include="..\SDL\include\DrawObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PointMatrix.h">
+    <ClInclude Include="..\SDL\include\LineStyle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Transform.h">
+    <ClInclude Include="..\SDL\include\Point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DrawObject.h">
+    <ClInclude Include="..\SDL\include\PointMatrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Polygon.h">
+    <ClInclude Include="..\SDL\include\Polygon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Arc.h">
+    <ClInclude Include="..\SDL\include\Transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

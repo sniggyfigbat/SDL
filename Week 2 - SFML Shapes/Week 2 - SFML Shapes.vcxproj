@@ -71,7 +71,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ExecutablePath>../../SFML-2.4.2/bin;$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
-    <IncludePath>../../SFML-2.4.2/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>../../SFML-2.4.2/include;./include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>../../SFML-2.4.2/lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -118,16 +118,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="H:\Documents\Year_2\GitHub\SDL\SDL\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Arc.h" />
-    <ClInclude Include="DrawObject.h" />
-    <ClInclude Include="LineStyle.h" />
-    <ClInclude Include="Point.h" />
-    <ClInclude Include="PointMatrix.h" />
-    <ClInclude Include="Polygon.h" />
-    <ClInclude Include="Transform.h" />
+    <ClInclude Include="..\SDL\include\Arc.h" />
+    <ClInclude Include="..\SDL\include\DrawObject.h" />
+    <ClInclude Include="..\SDL\include\LineStyle.h" />
+    <ClInclude Include="..\SDL\include\Point.h" />
+    <ClInclude Include="..\SDL\include\PointMatrix.h" />
+    <ClInclude Include="..\SDL\include\Polygon.h" />
+    <ClInclude Include="..\SDL\include\Transform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
